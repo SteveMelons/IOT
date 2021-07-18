@@ -1,0 +1,17 @@
+{
+  "name": "iotproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js --ext js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.8",
+    "nodemon": "^2.0.9",
+    "onoff": "^6.0.3"
+  }
+}
